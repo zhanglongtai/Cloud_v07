@@ -1,7 +1,7 @@
 import React           from 'react';
 import io              from 'socket.io-client';
 import FileUploadPanel from './FileUploadPanel';
-import FileTreePanel   from './FileTreePanel';
+import FileTreePanelContainer   from './FileTreePanelContainer';
 import FileMenuPanel   from './FileMenuPanel';
 import FileViewerPanel from './FileViewerPanel';
 import { updateModelStore as modelStore } from '../../../stores';
